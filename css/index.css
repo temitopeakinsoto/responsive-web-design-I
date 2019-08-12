@@ -74,8 +74,7 @@ h1, h2, h3, h4, h5 {
 .container{
 	display: flex;
 	flex-direction: column;
-	width: 80%;
-	
+    width: 80%;
 	margin: 0 auto;
 }
 
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 900px){    
     .nav-item{
-        margin-right: 50px;
+        margin-right: 20px;
         font-size: 18px;
     }
 }
@@ -155,6 +154,12 @@ h1, h2, h3, h4, h5 {
 	width: 450px;
 	float: left;
 	padding-right: 10px;
+}
+
+@media (max-width: 600){
+    .features{
+        max-width: 70%;
+    }
 }
 
 
@@ -240,6 +245,13 @@ h1, h2, h3, h4, h5 {
     .img-src{
         max-width: 100%;
     }
+}
+
+@media (max-width: 600px){
+    .middle-img {
+        width: 80%;
+    }
+    
 }
 
 .contact{
