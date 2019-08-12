@@ -116,7 +116,8 @@ h1, h2, h3, h4, h5 {
 @media(max-width: 600px){
     .nav-item{
         margin-right: 90px;
-        font-size: 18px;
+        font-size: 22px;
+        color: gray;
     }
 }
 @media(max-width: 600px){
