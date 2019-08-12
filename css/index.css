@@ -97,6 +97,19 @@ h1, h2, h3, h4, h5 {
 
 }
 
+@media (max-width: 900px){
+    
+    .header{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+}
+
 .column{
 	position: relative;
 	left: 400px;
@@ -110,10 +123,17 @@ h1, h2, h3, h4, h5 {
 	padding-right: 10px;
 }
 
+
 .features-header{
 	display: inline-block;
 	width: 450px;
 	padding-top: 50px;
+}
+
+@media (max-width: 900px){
+    .header-image {
+        display: none;
+    }
 }
 
 .features-header h1{
@@ -215,3 +235,12 @@ h1, h2, h3, h4, h5 {
 }
 
 
+@media (max-width: 900px){
+    
+    .section-header{
+        background-color:blue;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
